@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+}
+
+/*menu*/
+.menu-nav{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #09072c;
+}
+
+.logo{
+    height: 60px;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+    
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.enlaces a,form{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px;
+    border-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 12px;
+    color: aliceblue;
+}
+
+.enlaces a:hover{
+    padding: 9px 11px;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.menu-form label{
+    padding: 1px 70px;
+    padding-top: 1px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-weight: 400;
+    color: gray;
+}
+/*menu*/
+
+.hero{
+    height: 500px;
+    background-image: url("pexels-pixabay-159438.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor-textos{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero button{
+    padding: 15px;
+    font-family: 'calibri';
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20px;
+    border-color: rgb(51, 15, 153);
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: #130f57;
+    opacity: 0.6;
+}
+
+.button-hero:hover{
+    
+    opacity: 0.9;
+}
