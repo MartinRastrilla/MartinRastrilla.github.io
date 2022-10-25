@@ -38,7 +38,7 @@
 
 
 
-.enlaces a,form{
+.enlaces a, form{
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -66,9 +66,10 @@
 }
 /*menu*/
 
+/*carrusel principal*/
 .hero{
     height: 500px;
-    background-image: url("pexels-pixabay-159438.jpg");
+    background-image: url("images/pexels-pixabay-159438.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -98,4 +99,33 @@
 .button-hero:hover{
     
     opacity: 0.9;
+}
+/*carrusel principal*/
+
+/*carrusel segundo*/
+.contenedorCategoryGadgets{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedorCategoryGadgets h2{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+}
+
+.imagesCategory{
+    width: 90%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.imagesCategory img{
+    width: 180px;
 }
