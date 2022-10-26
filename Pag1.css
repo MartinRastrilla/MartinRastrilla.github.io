@@ -13,6 +13,9 @@
 
 /*menu*/
 .menu-nav{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
     padding: 0;
     display: flex;
     align-items: center;
@@ -97,7 +100,6 @@
 }
 
 .button-hero:hover{
-    
     opacity: 0.9;
 }
 /*carrusel principal*/
@@ -128,4 +130,22 @@
 }
 .imagesCategory img{
     width: 180px;
+}
+
+.imagesCategory a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+.imagesCategory div{
+    padding: 10px 2px;
+}
+
+.imagesCategory div:hover{
+    border-style: outset;
+    border-color: rgb(51, 15, 153);
+    border-width: 2px;
+    padding: 8px 0px;
 }
