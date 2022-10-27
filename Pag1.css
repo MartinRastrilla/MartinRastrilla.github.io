@@ -78,7 +78,7 @@ div{
 /*carrusel principal*/
 .hero{
     height: 500px;
-    background-image: url("./images/pexels-pixabay-159438.jpg");
+    background-image: url("./pexels-pixabay-159438.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
