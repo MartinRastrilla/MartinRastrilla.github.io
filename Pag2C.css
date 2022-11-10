@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+    color: white;
+}
+div{
+    display: block;
+}
+.contenedor {
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+}
+
+/*menu*/
+.stickyNav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.menu-nav{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #09072c;
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+    margin-right: 3%;
+}
+.enlaces{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.enlaces a, form{
+    display: flex;
+    text-align: center;
+    border: 1px;
+    border-style: none;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 12px;
+    color: aliceblue;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto span{
+    margin-left: 10px;
+}
+.contacto svg{
+    fill: aliceblue;
+    width: 31px;
+    min-width: 31px;
+    max-width: 31px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+}
+
+.wishList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishList span{
+    margin-left: 10px;
+}
+
+.wishList svg{
+    fill: aliceblue;
+    width: 23px;
+    min-width: 23px;
+    max-width: 23px;
+    height: 21px;
+    min-height: 21px;
+    max-height: 21px;
+}
+.enlaces a:hover{
+    padding: 9px 11px;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.menu-form label{
+    padding: 2px 120px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: aliceblue;
+    font-weight: 400;
+    color: gray;
+}
+
+.buscar{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: aliceblue;
+    width: 31px;
+    min-width: 31px;
+    max-width: 31px;
+    height: 28px;
+    min-height: 28px;
+    max-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left-color: gray;
+    border-style: solid;
+}
+
+.buscar svg{
+    fill: gray;
+    max-width: 70%;
+    max-height: 70%;
+}
+.formBuscar{
+    color: black;
+    border-style: none;
+    font-size: 15px;
+    text-align: center;
+    justify-content: flex-start;
+}
+/*menu*/

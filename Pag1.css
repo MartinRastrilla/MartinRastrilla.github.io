@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'calibri';
     color: white;
+    font-size: 20px;
 }
 div{
     display: block;
@@ -29,6 +30,7 @@ div{
 }
 
 .logo{
+    display: flex;
     height: 60px;
     padding-left: 2%;
     padding-right: 1%;
@@ -37,28 +39,64 @@ div{
 .logo img{
     display: block;
     height: 100%;
-    
+    margin-right: 3%;
 }
 .enlaces{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
 
 .enlaces a, form{
     display: flex;
-    justify-content: space-between;
     text-align: center;
     border: 1px;
     border-style: none;
+    align-items: center;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 12px;
     color: aliceblue;
 }
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contacto span{
+    margin-left: 10px;
+}
+.contacto svg{
+    fill: aliceblue;
+    width: 31px;
+    min-width: 31px;
+    max-width: 31px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+}
+
+.wishList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishList span{
+    margin-left: 10px;
+}
+
+.wishList svg{
+    fill: aliceblue;
+    width: 23px;
+    min-width: 23px;
+    max-width: 23px;
+    height: 21px;
+    min-height: 21px;
+    max-height: 21px;
+}
 .enlaces a:hover{
     padding: 9px 11px;
     border: 1px;
@@ -66,18 +104,49 @@ div{
     border-color: aliceblue;
 }
 .menu-form label{
-    padding: 1px 120px;
-    padding-top: 1px;
-    border-radius: 20px;
+    padding: 2px 120px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: aliceblue;
     font-weight: 400;
     color: gray;
+}
+
+.buscar{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: aliceblue;
+    width: 31px;
+    min-width: 31px;
+    max-width: 31px;
+    height: 28px;
+    min-height: 28px;
+    max-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left-color: gray;
+    border-style: solid;
+}
+
+.buscar svg{
+    fill: gray;
+    max-width: 70%;
+    max-height: 70%;
+}
+.formBuscar{
+    color: black;
+    border-style: none;
+    font-size: 15px;
+    text-align: center;
+    justify-content: flex-start;
 }
 /*menu*/
 
 /*carrusel principal*/
 .hero{
-    height: 500px;
+    height: 400px;
     background-image: url("./pexels-pixabay-159438.jpg");
     background-position: center;
     background-size: cover;
@@ -85,28 +154,70 @@ div{
 }
 
 .contenedor-textos{
-    padding: 0;
+    padding: 0px 4%;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.button-hero1{
+    width: 35px;
+    min-width: 35px;
+    max-width: 35px;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    opacity: 0.8;
+    background-color: #09072c;
+    display: flex;
+    border-radius: 50%;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.hero button{
-    padding: 15px;
-    font-family: 'calibri';
-    font-weight: bold;
-    color: aliceblue;
-    font-size: 20px;
-    border-color: rgb(51, 15, 153);
-    border-width: 2px;
-    border-radius: 20px;
-    background-color: #130f57;
-    opacity: 0.6;
+.button-hero2{
+    width: 35px;
+    min-width: 35px;
+    max-width: 35px;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    opacity: 0.8;
+    background-color: #09072c;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.button-hero:hover{
-    opacity: 0.9;
+.button-hero1 svg{
+    max-width: 48%;
+    max-height: 48%;
+    fill: white;
+
+}
+
+.button-hero1:hover{
+    opacity: 1;
+    background-color: #1a064e;
+    transition: all 0.3 ease-in-out;
+}
+.button-hero2 svg{
+    max-width: 48%;
+    max-height: 48%;
+    fill: white;
+
+}
+
+.button-hero2:hover{
+    opacity: 1;
+    background-color: #1a064e;
+    transition: all 0.3 ease-in-out;
 }
 /*carrusel principal*/
 
@@ -139,7 +250,7 @@ div{
     width: 180px;
 }
 
-.imagesCategory a{
+.imagesCategory p{
     text-align: center;
     text-decoration: none;
     color: black;
