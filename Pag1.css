@@ -145,9 +145,9 @@ div{
 /*menu*/
 
 /*carrusel principal*/
-.hero{
+#hero{
     height: 400px;
-    background-image: url("./pexels-pixabay-159438.jpg");
+    background-image: url("./Game.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
