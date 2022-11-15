@@ -11,18 +11,14 @@ let contador = 0;
                 tgt = e.target;
             if(tgt == atras){
                 if (contador > 0) {
-                    //let url = listaImagenes[contador - 1].toString;
                     imagen.style.backgroundImage = listaImagenes[contador -1];
                     contador--;
                 } else {
-                    //imagen.src = listaImagenes[listaImagenes.length - 1];
-                    //imagen.style.backgroundImage = "url('listaImagenes.length - 1')";
                     imagen.style.backgroundImage = listaImagenes[listaImagenes.length - 1];
                     contador = listaImagenes.length -1;
                 }
             }else if(tgt == adelante){
                 if (contador < listaImagenes.length-1) {
-                    //let url = listaImagenes[contador + 1].toString;
                     imagen.style.backgroundImage = listaImagenes[contador + 1];
                     contador++;
                 } else {

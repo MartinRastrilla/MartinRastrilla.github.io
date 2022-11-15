@@ -59,7 +59,9 @@ div{
     font-weight: bold;
     padding: 10px 12px;
     color: aliceblue;
+    
 }
+
 .contacto{
     display: flex;
     justify-content: center;
@@ -177,6 +179,9 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .button-hero2{
@@ -193,6 +198,9 @@ div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .button-hero1 svg{
@@ -204,8 +212,11 @@ div{
 
 .button-hero1:hover{
     opacity: 1;
-    background-color: #1a064e;
-    transition: all 0.3 ease-in-out;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: #7a114b;
+    transform: scale(1.2,1.2);
 }
 .button-hero2 svg{
     max-width: 48%;
@@ -216,8 +227,11 @@ div{
 
 .button-hero2:hover{
     opacity: 1;
-    background-color: #1a064e;
-    transition: all 0.3 ease-in-out;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: #7a114b;
+    transform: scale(1.2,1.2);
 }
 /*carrusel principal*/
 
