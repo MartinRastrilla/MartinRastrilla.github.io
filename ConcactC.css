@@ -67,18 +67,27 @@ div{
     padding-left: 8px;
     border-color: #35ffd2;
     transition: all .3 ease;
+    margin-top: 15px;
 }
 
 .contInputs input:focus{
     background-color: rgb(41, 13, 78);
     color: aliceblue;
 }
+.nombre{
+    margin-bottom: 20px;
+    width: 100%;
+}
 .nombre label{
     display: flex;
     font-size: 25px;
     width: 100%;
     height: 25px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: left;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+}
+.boton input:hover{
+    background-color: rgb(41, 13, 78);
+    color: aliceblue;
 }
