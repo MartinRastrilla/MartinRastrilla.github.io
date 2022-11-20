@@ -4,10 +4,11 @@
 <head>
     <title>TechThings</title>
     <link rel="stylesheet" href="ConcactC.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body class="background">
-    <form class="contenedorForm">
+    <form class="contenedorForm" id="contenedor">
         <h2 class="head">TechThings</h2>
         <a href="index.html">
             <img src="./cubo.png" alt="logo">
@@ -15,22 +16,24 @@
         <h2>Bienvenido</h2>
         <div class="contInputs">
             <div class="nombre">
-                <label>Usuario:</label>
+                <label>Usuario</label>
                 <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario">
             </div>
             <div class="nombre">
-                <label>Contraseña:</label>
+                <label>Contraseña</label>
                 <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
             </div>
             <div class="nombre">
-                <label>Mail:</label>
+                <label>Mail</label>
                 <input type="email" name="mail" id="mail" placeholder="Ingrese su mail">
             </div>
             <div class="boton">
-                <input class="bottons" type="submit" id="submit" value="Enviar">
+                <input class="bottons" type="submit" value="Enviar">
             </div>
+            <p class="alerta" id="alertaID"></p>
         </div>
     </form>
+    <script src="ContactJS.js"></script>
 </body>
 
 </html>
