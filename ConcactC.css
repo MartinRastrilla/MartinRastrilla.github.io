@@ -39,7 +39,7 @@ div{
     align-items: center;
 }
 .head{
-    background-color: rgb(41, 13, 78);
+    background-image: linear-gradient(to left,  rgb(218, 95, 13),rgb(141, 5, 141));
     color: aliceblue;
     border-style: none none solid none;
     border-bottom: -1px;
@@ -72,7 +72,7 @@ div{
 }
 
 .contInputs input:focus{
-    background-color: rgb(41, 13, 78);
+    background-image: linear-gradient(to left,  rgb(218, 95, 13),rgb(141, 5, 141));
     color: aliceblue;
 }
 .nombre{
@@ -96,7 +96,7 @@ div{
     height: 40px;
 }
 .boton input:hover{
-    background-color: rgb(41, 13, 78);
+    background-image: linear-gradient(to right,  rgb(218, 95, 13),rgb(141, 5, 141));
     color: aliceblue;
 }
 .alerta{

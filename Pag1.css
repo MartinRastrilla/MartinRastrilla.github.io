@@ -26,9 +26,15 @@ div{
     display: flex;
     align-items: center;
     height: 70px;
-    background-color: #09072c;
+    background-image: linear-gradient(to right,  #09072c,rgb(74, 4, 92),#09072c,rgb(74, 4, 92),#09072c,rgb(74, 4, 92));
+    background-size: 300% 300%;
+    animation: navAnimation 15s ease infinite;
 }
-
+@keyframes navAnimation{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
 .logo{
     display: flex;
     height: 60px;
@@ -48,7 +54,6 @@ div{
 }
 
 
-
 .enlaces a, form{
     display: flex;
     text-align: center;
@@ -56,9 +61,12 @@ div{
     border-style: none;
     align-items: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
     padding: 10px 12px;
     color: aliceblue;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
     
 }
 
@@ -100,10 +108,11 @@ div{
     max-height: 21px;
 }
 .enlaces a:hover{
-    padding: 9px 11px;
+    padding: 0px 7px 0px 7px;
     border: 1px;
     border-style: solid;
     border-color: aliceblue;
+    box-shadow: 0 2px 4px aliceblue;
 }
 .menu-form label{
     padding: 2px 120px;

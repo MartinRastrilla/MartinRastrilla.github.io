@@ -41,7 +41,7 @@ function validarFormulario(){
             alertas+="Contraseña: "+password.value+"<br>";
             alertas+="Mail: "+email.value+"<br>";
             alertasP.innerHTML = alertas;
-            confirm("Está Seguro?");
+            confirm("Confirmar Enviar Estos Datos?");
         }
     });
 }
