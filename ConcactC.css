@@ -39,11 +39,19 @@ div{
     align-items: center;
 }
 .head{
-    background-image: linear-gradient(to left,  rgb(218, 95, 13),rgb(141, 5, 141));
+    background-image: linear-gradient(to left,  rgb(218, 95, 13),rgb(141, 5, 141), rgb(218, 95, 13),rgb(141, 5, 141), rgb(218, 95, 13),rgb(141, 5, 141));
     color: aliceblue;
+    background-size: 300% 300%;
+    animation: headAnimation 15s ease infinite;
     border-style: none none solid none;
     border-bottom: -1px;
     border-color: #35ffd2;
+}
+
+@keyframes headAnimation{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
 }
 .contenedorForm a{
     width: 100%;
@@ -96,7 +104,9 @@ div{
     height: 40px;
 }
 .boton input:hover{
-    background-image: linear-gradient(to right,  rgb(218, 95, 13),rgb(141, 5, 141));
+    background-image: linear-gradient(to left,  rgb(218, 95, 13),rgb(141, 5, 141), rgb(218, 95, 13),rgb(141, 5, 141), rgb(218, 95, 13),rgb(141, 5, 141));
+    background-size: 300% 300%;
+    animation: headAnimation 15s ease infinite;
     color: aliceblue;
 }
 .alerta{

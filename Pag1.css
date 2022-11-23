@@ -358,7 +358,9 @@ div{
     width: 100%;
     height: auto;
     height: 100px;
-    background-color: #0f0a40;
+    background-image: linear-gradient(to right,  #09072c,rgb(74, 4, 92),#09072c,rgb(74, 4, 92),#09072c,rgb(74, 4, 92));
+    background-size: 300% 300%;
+    animation: navAnimation 15s ease infinite;
     justify-content: center;
 }
 
