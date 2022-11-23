@@ -173,6 +173,26 @@ div{
     flex-wrap: wrap;
 }
 
+.whoButt{
+    background-color: #09072c;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+.whoButt a{
+    text-decoration: none;
+}
+
+.whoButt:hover{
+    background-image: linear-gradient(to right,  #09072c,rgb(74, 4, 92),#09072c,rgb(74, 4, 92),#09072c,rgb(74, 4, 92));
+    background-size: 300% 300%;
+    animation: navAnimation 5s ease infinite;
+    transform: scale(1.2,1.2);
+}
+
 
 .button-hero1{
     width: 35px;
