@@ -109,7 +109,7 @@ div{
     animation: headAnimation 15s ease infinite;
     color: aliceblue;
 }
-.alerta{
+.alerta p{
     font-size: 13px;
     width: 100%;
     text-align: center;

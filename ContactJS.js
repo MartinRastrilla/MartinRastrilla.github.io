@@ -35,12 +35,16 @@ function validarFormulario(){
         }
 
         if (flag) {
-            alertasP.innerHTML = alertas;
+            let p = document.createElement("p");
+            p.innerHTML = alertas
+            alertasP.appendChild(p);
         }else{
             alertas+="Usuario: "+user.value+"<br>";
             alertas+="Contraseña: "+password.value+"<br>";
             alertas+="Mail: "+email.value+"<br>";
-            alertasP.innerHTML = alertas;
+            let p = document.createElement("p");
+            p.innerHTML = alertas
+            alertasP.appendChild(p);
             confirm("Confirmar Enviar Estos Datos?");
         }
     });
